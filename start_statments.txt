@@ -1,0 +1,19 @@
+pip3 install instaloader
+
+apt install python3-dev
+pip3 install wheel
+apt-get install libpq-dev
+pip3 list --outdated
+pip3 install --upgrade wheel
+pip3 install --upgrade setuptools
+pip3 install psycopg2
+
+pip3 install instabot
+
+sudo apt-add-repository ppa:mozillateam/firefox-next
+sudo apt-get update
+sudo apt-get install firefox xvfb
+Xvfb :10 -ac &
+export DISPLAY=:10
+pip3 install selenium
+

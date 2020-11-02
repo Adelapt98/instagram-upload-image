@@ -1,0 +1,8 @@
+{
+    "db": {
+      "host": "localhost",
+      "user": "postgres",
+      "pass": "sample",
+      "database": "insta_post"
+    }
+}
